@@ -4,7 +4,7 @@
 
 	<groupId>b6e28bab-eafa-461b-b333-3bca2297260d</groupId>  <!-- Business Group Id from Access Management-->
 	<artifactId>github-cicd-poc</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>mule-application</packaging>
 
 	<name>github-cicd-poc</name>
@@ -38,7 +38,7 @@
 							<target>Cloudhub-US-East-2</target>
 							<server>Repository</server>
 							<applicationName>${project.artifactId}</applicationName>
-							<releaseChannel>NONE</releaseChannel>
+							<releaseChannel>EDGE</releaseChannel>
 							<replicas>1</replicas>
 							<vCores>0.1</vCores>
 							<deploymentSettings>
