@@ -4,7 +4,7 @@
 
 	<groupId>b6e28bab-eafa-461b-b333-3bca2297260d</groupId>  <!-- Business Group Id from Access Management-->
 	<artifactId>github-cicd-poc</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<packaging>mule-application</packaging>
 
 	<name>github-cicd-poc</name>
